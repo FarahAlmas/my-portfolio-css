@@ -1,0 +1,29 @@
+/*-ye yahan ka nahi hy*/
+.card{
+  padding:1.5rem 1rem;
+  background-color: var(--background-light-gray);
+  border-radius: .75rem;
+  text-align: start;
+  transition: background-color 0.3s ease-in-out;
+  
+  &:hover{
+    background-color: #4444;
+  }
+
+}
+.cardImage{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.card h1{
+  font-size: 1.4375rem;
+  line-height: 2rem;
+}
+.card p{
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 0px;
+}

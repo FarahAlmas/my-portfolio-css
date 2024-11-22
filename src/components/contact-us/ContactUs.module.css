@@ -1,0 +1,114 @@
+.contactUs{
+  width: 100%;
+  background-color: var(--background-gray);
+  padding:9.625rem 9.1875rem 10rem 9.1875rem ;
+  text-align: center;
+
+}
+.contactUs h1{
+  font-size: 3rem;
+  line-height:3rem;
+  margin-bottom: 1.125rem;
+}
+.contactUs span{
+  color:var(--logo-color);
+}
+.contactUs p{
+  font-size: 1.0625rem;
+  line-height: 1.75rem;
+  margin-bottom: 6rem;
+
+}
+.contactUsBottomDiv{
+  width: 100%;
+  display: flex;
+  gap:120px;
+  margin: auto;
+
+}
+.contactDivLeft{
+  width: 18.75rem;
+  display: flex;
+  gap:48px;
+  flex-direction: column;
+
+}
+.contactDivLeftContainer{
+  display: flex;
+  gap:16px;
+}
+
+.contactDivLeftText{
+  display:flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 8px;
+
+}
+.contactDivLeftText :nth-child(2){
+  color:#616161;
+}
+.contactDivLeftText :nth-child(3){
+  color:var(--logo-color);
+}
+.contactDivRight{
+  width:650px;
+ 
+}
+.contactDivRight form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+}
+.topInputDiv{
+  width: 100%;
+  display: flex;
+  gap: .5rem;
+}
+.topInputDiv input{
+  width: 320px;
+  
+
+}
+.inputDetails{
+  padding: 15px 0 15px 12px;
+  font-size: .9375rem;
+  background-color: #333333;
+  border-radius: 8px;
+}
+.submitBtn{
+  background-color: var( --button-color);
+  width: 178px;
+  height: 52px;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover{
+    background-color: var( --hover-button-color);
+
+  }
+
+}
+
+
+@media(max-width:768px){
+  .contactUs{
+    padding: 160px 32px 160px 32px;
+  }
+  .contactUsBottomDiv{
+    flex-direction: column;
+    gap: 120px;
+  }
+
+}
+
+@media(max-width:390px){
+  .contactDivRight{
+    width: 100%;
+  }
+  .topInputDiv{
+    flex-direction: column;
+    gap: 25px;
+  }
+}
